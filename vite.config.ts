@@ -1,10 +1,10 @@
-import path from 'path';
-import fs from 'fs';
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  plugins: [react()],
   base: '/sports-shoes/',
+})
   plugins: [
     react(),
     // Copies src/assets into dist/ so root-relative URLs like
