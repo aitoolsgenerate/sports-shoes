@@ -52,7 +52,16 @@ export default function App() {
   const [cart, setCart] = useState<CartItem[]>(() => {
     try {
       const stored = localStorage.getItem('sports-shoes-cart');
-      return stored ? (JSON.parse(stored) as CartItem[]) : [];
+      if (!stored) return [];
+      const parsed = JSON.parse(stored) as CartItem[];
+      return parsed
+        .map((item) => {
+          const freshProduct = SHOES_CATALOG.find(
+            (shoe) => shoe.id === item.product.id
+          );
+          return freshProduct ? { ...item, product: freshProduct } : null;
+        })
+        .filter((item): item is CartItem => item !== null);
     } catch {
       return [];
     }

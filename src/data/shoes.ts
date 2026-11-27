@@ -1,7 +1,15 @@
+import heroSportsShoesBanner from '../assets/images/hero_sports_shoes_banner_1795778189495.jpg';
+import shoeBlackMidtopBball from '../assets/images/shoe_black_midtop_bball_1795778190805.jpg';
+import shoeBlackNavySpeedBoot from '../assets/images/shoe_black_navy_speed_boot_1795778191823.jpg';
+import shoeBlackNavyTurf from '../assets/images/shoe_black_navy_turf_1795778190482.jpg';
+import shoeBlackWhiteRunner from '../assets/images/shoe_black_white_runner_1795777719034.jpg';
+import shoeNavyAgilityTrainer from '../assets/images/shoe_navy_agility_trainer_1795778191748.jpg';
+import shoeNavyBlackMarathon from '../assets/images/shoe_navy_black_marathon_1795778190077.jpg';
+import shoeNavyCourtPro from '../assets/images/shoe_navy_court_pro_1795778190873.jpg';
+import shoeNavyRunner from '../assets/images/shoe_navy_runner_1795777718152.jpg';
 import { BrandLine, PriceTier, ShoeColor, ShoeProduct, Subcategory } from '../types/store';
 
-export const HERO_BANNER_IMAGE =
-  '/src/assets/images/hero_sports_shoes_banner_1795778189495.jpg';
+export const HERO_BANNER_IMAGE = heroSportsShoesBanner;
 
 export const PRICE_TIERS: PriceTier[] = [6000, 7000, 8000];
 
@@ -36,7 +44,7 @@ export const SHOES_CATALOG: ShoeProduct[] = [
     colors: ['Navy Blue'],
     sizes: [40, 40.5, 41, 42, 43, 44, 45],
     isNew: true,
-    image: '/src/assets/images/shoe_navy_runner_1795777718152.jpg',
+    image: shoeNavyRunner,
     description:
       'Breathable navy blue engineered mesh upper paired with a dual-density cushioned midsole for daily road mileage and tempo sessions.',
     specs: {
@@ -57,7 +65,7 @@ export const SHOES_CATALOG: ShoeProduct[] = [
     colors: ['Black'],
     sizes: [39, 40, 41, 42, 42.5, 43, 44, 45],
     isNew: true,
-    image: '/src/assets/images/shoe_black_white_runner_1795777719034.jpg',
+    image: shoeBlackWhiteRunner,
     description:
       'Sleek jet-black knit trainer designed for versatile road running, gym warmups, and everyday athletic wear.',
     specs: {
@@ -78,7 +86,7 @@ export const SHOES_CATALOG: ShoeProduct[] = [
     colors: ['Navy Blue', 'Black'],
     sizes: [41, 42, 42.5, 43, 44, 44.5, 45, 46],
     isNew: true,
-    image: '/src/assets/images/shoe_navy_black_marathon_1795778190077.jpg',
+    image: shoeNavyBlackMarathon,
     description:
       'High-stack marathon cushioning platform in midnight navy blue and matte black built for long-distance energy return.',
     specs: {
@@ -99,7 +107,7 @@ export const SHOES_CATALOG: ShoeProduct[] = [
     colors: ['Black', 'Navy Blue'],
     sizes: [40, 41, 42, 43, 44, 45],
     isNew: false,
-    image: '/src/assets/images/shoe_black_navy_turf_1795778190482.jpg',
+    image: shoeBlackNavyTurf,
     description:
       'Precision synthetic turf football shoe in matte black and deep navy blue with a micro-textured strike zone for artificial pitches.',
     specs: {
@@ -120,7 +128,7 @@ export const SHOES_CATALOG: ShoeProduct[] = [
     colors: ['Navy Blue', 'Black'],
     sizes: [39, 40, 41, 42, 43, 44],
     isNew: false,
-    image: '/src/assets/images/shoe_navy_court_pro_1795778190873.jpg',
+    image: shoeNavyCourtPro,
     description:
       'Hard-court and indoor badminton silhouette in deep navy blue and charcoal black with reinforced toe drag protection.',
     specs: {
@@ -141,7 +149,7 @@ export const SHOES_CATALOG: ShoeProduct[] = [
     colors: ['Black', 'Navy Blue'],
     sizes: [41, 42, 43, 44, 44.5, 45, 46],
     isNew: true,
-    image: '/src/assets/images/shoe_black_midtop_bball_1795778190805.jpg',
+    image: shoeBlackMidtopBball,
     description:
       'Stealth jet-black and midnight navy mid-cut basketball shoe engineered for explosive drives and lateral hardwood stability.',
     specs: {
@@ -162,7 +170,7 @@ export const SHOES_CATALOG: ShoeProduct[] = [
     colors: ['Navy Blue', 'Black'],
     sizes: [39, 40, 40.5, 41, 42, 43, 44],
     isNew: false,
-    image: '/src/assets/images/shoe_navy_agility_trainer_1795778191748.jpg',
+    image: shoeNavyAgilityTrainer,
     description:
       'Lightweight navy blue and obsidian black agility trainer built for speed drills, outdoor conditioning, and gym turf work.',
     specs: {
@@ -183,7 +191,7 @@ export const SHOES_CATALOG: ShoeProduct[] = [
     colors: ['Black', 'Navy Blue'],
     sizes: [40, 41, 42, 42.5, 43, 44, 45],
     isNew: true,
-    image: '/src/assets/images/shoe_black_navy_speed_boot_1795778191823.jpg',
+    image: shoeBlackNavySpeedBoot,
     description:
       'Aerodynamic jet-black and royal navy speed turf trainer featuring a knit collar lockdown and responsive studded outsole.',
     specs: {
