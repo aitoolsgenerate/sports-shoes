@@ -1,0 +1,6 @@
+{
+  "name": "Sports Shoes",
+  "description": "Athletic footwear storefront featuring running, football, basketball, and court shoes priced at Rs 6,000, Rs 7,000, and Rs 8,000.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
